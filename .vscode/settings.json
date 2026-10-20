@@ -1,0 +1,7 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.executorMap": {
+        "cpp": "mkdir -p \"$workspaceRoot/build\" && cd $dir && g++ -std=c++20 -O2 -pipe -static -s \"$fileName\" -o \"$workspaceRoot/build/$fileNameWithoutExt\" && clear && \"$workspaceRoot/build/$fileNameWithoutExt\""
+    }
+}
